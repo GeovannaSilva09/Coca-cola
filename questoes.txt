@@ -1,0 +1,84 @@
+Questões para responder
+
+1. O que é um repositório no Git e qual a sua importância?
+
+Um repositório no Git é um local onde o código e o histórico de mudanças de um projeto são armazenados. Ele pode ser local (no seu computador) ou remoto (na nuvem, como no GitHub). A importância do repositório é permitir o versionamento e a colaboração entre desenvolvedores, pois ele mantém o controle de todas as modificações feitas no código, facilitando a reversão a versões anteriores e a colaboração em equipe.
+
+2. Qual a função do Git Bash?
+
+O Git Bash é um terminal que emula um ambiente de linha de comando, permitindo que os usuários utilizem comandos do Git e outros comandos Unix em um sistema. Ele facilita a interação com o Git e a execução de tarefas de controle de versão no repositório.
+
+3. O que faz o comando git add e qual a diferença entre git add <arquivo> e git add .?
+
+O comando git add prepara as mudanças no código para serem incluídas no próximo commit.
+
+A diferença entre git add <arquivo> e git add . é:
+
+git add <arquivo> adiciona um arquivo específico ao stage.
+
+git add . adiciona todos os arquivos modificados (exceto os ignorados) do diretório atual e seus subdiretórios.
+
+4. Por que utilizamos o ponto (.) no comando git add .?
+
+O ponto (.) no comando git add . representa o diretório atual. Isso significa que ele vai adicionar todos os arquivos modificados dentro do diretório atual e suas subpastas ao stage para o próximo commit.
+
+5. Explique o comando git commit e por que é importante criar uma mensagem descritiva.
+
+O comando git commit salva as mudanças que foram adicionadas ao stage (com git add) no repositório, criando uma nova versão do projeto. A mensagem descritiva é importante porque ajuda a entender o que foi feito nas alterações. Mensagens claras e descritivas ajudam outros desenvolvedores (ou você mesmo no futuro) a entender rapidamente o propósito de cada commit.
+
+6. Qual a função do comando git push?
+
+O comando git push envia os commits locais para um repositório remoto, como o GitHub. Isso permite que outras pessoas ou máquinas tenham acesso às atualizações do projeto.
+
+7. Qual a importância de criar commits frequentes durante o desenvolvimento de um projeto?
+
+Criar commits frequentes permite que você tenha um histórico detalhado do seu trabalho, facilitando a identificação e correção de erros. Também melhora a colaboração, já que os membros da equipe podem ver o progresso constante e integrar suas mudanças com mais facilidade.
+
+8. Explique a função das tags HTML e como elas estruturam uma página.
+
+As tags HTML são os blocos fundamentais de uma página web. Elas definem a estrutura e o conteúdo da página, como títulos, parágrafos, imagens, links, etc. Através dessas tags, o navegador entende como exibir o conteúdo de maneira organizada e semântica.
+
+9. O que são atributos em uma tag HTML e qual a sua função?
+
+Atributos são informações adicionais que podem ser adicionadas a uma tag HTML para configurar ou modificar seu comportamento ou aparência. Por exemplo, o atributo src em uma tag <img> define o caminho da imagem, e o atributo href em uma tag <a> define o link de destino.
+
+10. O que é o Emmet e como ele facilita o desenvolvimento de páginas HTML?
+
+O Emmet é uma ferramenta de abreviação que acelera o processo de escrita de código HTML e CSS. Com o Emmet, você pode digitar abreviações curtas e, ao pressionar "Tab", elas são expandidas para código HTML ou CSS completo, economizando tempo de digitação e aumentando a produtividade.
+
+11. O que é o box-sizing no CSS e por que usamos ele no reset inicial?
+
+O box-sizing no CSS define como as dimensões de um elemento são calculadas. Por padrão, as dimensões (largura e altura) de um elemento incluem apenas o conteúdo. Com o box-sizing: border-box, a largura e altura do elemento incluem o padding e as bordas, o que facilita o controle do layout e evita que o elemento ultrapasse o tamanho definido. Ele é comum em resets para garantir um comportamento consistente entre diferentes navegadores.
+
+12. Por que é importante utilizar tags semânticas no HTML?
+
+As tags semânticas (como <header>, <footer>, <article>, etc.) são importantes porque ajudam a estruturar a página de forma mais organizada e compreensível. Elas melhoram a acessibilidade, o SEO (Search Engine Optimization) e a legibilidade do código, além de tornarem mais fácil para os motores de busca e leitores de tela interpretarem o conteúdo.
+
+13. O que são media queries no CSS e qual a sua função?
+
+Media queries são regras no CSS que permitem aplicar estilos diferentes dependendo das características do dispositivo, como largura da tela ou resolução. Elas são essenciais para o design responsivo, permitindo que a página se adapte a diferentes tamanhos de tela, como desktops, tablets e smartphones.
+
+14. Qual a função do GitHub Pages?
+
+O GitHub Pages é um serviço oferecido pelo GitHub que permite hospedar sites estáticos diretamente a partir de um repositório GitHub. Ele é útil para mostrar projetos, portfólios e documentação de forma simples e sem a necessidade de configuração complexa de servidor.
+
+15. O que é o Flexbox no CSS e para que ele é utilizado?
+
+O Flexbox (ou Layout Flexível) é um modelo de layout no CSS que facilita o alinhamento e a distribuição de itens em um contêiner. Ele é utilizado para criar layouts responsivos e flexíveis, onde os itens podem ser facilmente ajustados e distribuídos de forma proporcional, adaptando-se ao tamanho do contêiner.
+
+16. Qual a diferença entre justify-content e align-items em um container Flexbox?
+
+justify-content controla o alinhamento dos itens ao longo do eixo principal (geralmente horizontal, mas pode ser alterado com flex-direction).
+
+align-items controla o alinhamento dos itens ao longo do eixo transversal (geralmente vertical).
+
+17. Como o flex-grow funciona e qual o seu propósito no layout Flexbox?
+
+O flex-grow determina como um item pode crescer para ocupar o espaço disponível dentro do contêiner Flexbox. Um valor de flex-grow maior faz com que o item cresça mais em relação aos outros itens.
+
+18. Explique a diferença entre flex-direction: column; e flex-direction: row;.
+
+flex-direction: column; organiza os itens no eixo vertical (de cima para baixo).
+
+flex-direction: row; organiza os itens no eixo horizontal (da esquerda para a direita), que é o valor padrão.
+
